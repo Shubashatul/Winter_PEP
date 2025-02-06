@@ -42,7 +42,7 @@ const SignupForm=()=>{
                     onBlur={formik.handleBlur}
                     />
 
-                    formik.touched.name && formik.errors.name ?(<div style={{color:'red'}}>{formik.errors.name}</div>):null
+{formik.touched.name && formik.errors.name ?(<div style={{color:'red'}}>{formik.errors.name}</div>):null}
                 </div>
 
                 {/* email */}
@@ -56,7 +56,7 @@ const SignupForm=()=>{
                     onBlur={formik.handleBlur}
                     />
 
-                    formik.touched.email && formik.errors.email ?(<div style={{color:'red'}}>{formik.errors.email}</div>):null
+{formik.touched.email && formik.errors.email ?(<div style={{color:'red'}}>{formik.errors.email}</div>):null}
                 </div>
                 {/* pasword */}
                 <div>
@@ -69,7 +69,7 @@ const SignupForm=()=>{
                     onBlur={formik.handleBlur}
                     />
 
-                    formik.touched.password && formik.errors.password ?(<div style={{color:'red'}}>{formik.errors.password}</div>):null
+{formik.touched.password && formik.errors.password ?(<div style={{color:'red'}}>{formik.errors.password}</div>):null}
                 </div>
                 {/*Submit button */}
                 <button type="submit">Submit</button>
